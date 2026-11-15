@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=180&section=header&text=Gagan%20Gaur&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%7C%20AI%2C%20Backend%20%26%20Full-Stack&descAlignY=58&descSize=18" width="100%" alt="Gagan Gaur Header Banner" />
+<img src="assets/header.svg" width="100%" alt="Gagan Gaur Header Banner" />
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/">
