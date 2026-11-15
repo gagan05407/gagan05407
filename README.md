@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img src="assets/header.svg" width="100%" alt="Gagan Gaur Header Banner" />
+<img src="https://raw.githubusercontent.com/gagan05407/gagan05407/main/assets/header.svg" width="100%" alt="Gagan Gaur Header Banner" />
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/">
