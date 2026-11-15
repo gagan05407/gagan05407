@@ -1,37 +1,40 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=180&section=header&text=Gagan%20Gaur&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%2C%20Backend%20%26%20Full-Stack&descAlignY=62&descSize=16&v=2" alt="Gagan Gaur Header Banner" />
-</a>
-
-<!-- Dynamic Typing Subtitle -->
-<a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=6366F1&center=true&vCenter=true&width=500&lines=AI+Systems;Backend+APIs;Full-Stack+Products" alt="Typing SVG" />
-</a>
+# Gagan Gaur
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Roles%20%26%20Internships-6366f1?style=flat-square&logo=github&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Location-Jaipur%2C%20India-4f46e5?style=flat-square&logo=googlemaps&logoColor=white" alt="Location" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=6366F1&center=true&vCenter=true&width=550&lines=Software+Engineer;AI+Systems+%7C+Backend+APIs;Full-Stack+Products" alt="Typing SVG" />
+</p>
+
+<!-- Credentials & Context Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Roles-6366f1?style=flat-square&logo=github&logoColor=white" alt="Status" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Jaipur%2C%20India-1e293b?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
+  &nbsp;
   <img src="https://img.shields.io/badge/Education-LNMIIT%20%7C%20IIT%20Madras-1e293b?style=flat-square&logo=academia&logoColor=white" alt="Education" />
 </p>
 
-<!-- Social & Contact Badge Row -->
+<!-- Professional Navigation & Social Links -->
 <p align="center">
   <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-portfolio--pink--three--ndeknn3ng6.vercel.app-6366f1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Showcase-6366f1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/gagan-gaur" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-gagan--gaur-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-gagan--gaur-6366f1?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:gagangaur05407@gmail.com">
-    <img src="https://img.shields.io/badge/Email-gagangaur05407%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  &nbsp;
   <a href="https://leetcode.com/u/Gagan05407/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Gagan05407-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-Gagan05407-6366f1?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" />
   </a>
+  &nbsp;
+  <a href="mailto:gagangaur05407@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-6366f1?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
   <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/#resume-modal" target="_blank">
-    <img src="https://img.shields.io/badge/Resume-View%20CV-6366f1?style=flat-square&logo=googledocs&logoColor=white" alt="Resume" />
+    <img src="https://img.shields.io/badge/Resume-View%20CV-1e293b?style=flat-square&logo=googledocs&logoColor=white" alt="Resume" />
   </a>
 </p>
 
@@ -196,7 +199,6 @@
 
 </div>
 
-
 ---
 
 ### ⚡ Latest Activity
@@ -217,16 +219,23 @@
 
 <p align="center">
   <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Interactive%20Showcase-6366f1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Showcase-6366f1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/gagan-gaur" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-gagan--gaur-6366f1?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:gagangaur05407@gmail.com">
-    <img src="https://img.shields.io/badge/Email-gagangaur05407%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  &nbsp;
   <a href="https://leetcode.com/u/Gagan05407/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-Solve%20with%20me-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-Gagan05407-6366f1?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" />
+  </a>
+  &nbsp;
+  <a href="mailto:gagangaur05407@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get%20in%20Touch-6366f1?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/#resume-modal" target="_blank">
+    <img src="https://img.shields.io/badge/Resume-View%20CV-1e293b?style=flat-square&logo=googledocs&logoColor=white" alt="Resume" />
   </a>
 </p>
 
