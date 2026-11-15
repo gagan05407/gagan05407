@@ -1,7 +1,9 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=180&section=header&text=Gagan%20Gaur&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%2C%20Backend%20%26%20Full-Stack&descAlignY=62&descSize=16" width="100%" alt="Gagan Gaur Header Banner" />
+<a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=180&section=header&text=Gagan%20Gaur&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%2C%20Backend%20%26%20Full-Stack&descAlignY=62&descSize=16&v=2" alt="Gagan Gaur Header Banner" />
+</a>
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://portfolio-pink-three-ndeknn3ng6.vercel.app/">
