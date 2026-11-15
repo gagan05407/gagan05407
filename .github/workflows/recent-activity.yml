@@ -1,0 +1,99 @@
+name: Update Recent Activity
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # Every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch Recent GitHub Activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import urllib.request, json, re, os
+          from datetime import datetime
+
+          token = os.environ.get('GITHUB_TOKEN', '')
+          headers = {'User-Agent': 'Mozilla/5.0'}
+          if token:
+              headers['Authorization'] = f'Bearer {token}'
+
+          req = urllib.request.Request('https://api.github.com/users/gagan05407/events/public?per_page=30', headers=headers)
+          try:
+              with urllib.request.urlopen(req) as resp:
+                  events = json.loads(resp.read().decode('utf-8'))
+          except Exception as e:
+              print(f'Warning: failed to fetch events: {e}')
+              events = []
+
+          activity_lines = []
+          seen_repos = set()
+
+          for ev in events:
+              repo_name = ev.get('repo', {}).get('name', '')
+              if not repo_name or 'gagan05407/' not in repo_name:
+                  continue
+              short_name = repo_name.replace('gagan05407/', '')
+              if short_name == 'gagan05407' or short_name in seen_repos:
+                  continue
+
+              ev_type = ev.get('type')
+              action_desc = ''
+              if ev_type == 'PushEvent':
+                  commits = ev.get('payload', {}).get('commits', [])
+                  msg = commits[0].get('message', '').split('\n')[0] if commits else 'Committed code updates'
+                  action_desc = f'Pushed updates: \"{msg[:60]}\"'
+              elif ev_type == 'CreateEvent':
+                  ref_type = ev.get('payload', {}).get('ref_type', 'repository')
+                  action_desc = f'Created new {ref_type}'
+              elif ev_type == 'ReleaseEvent':
+                  action_desc = 'Published a new release'
+              elif ev_type == 'PullRequestEvent':
+                  action_desc = 'Worked on pull request'
+
+              if action_desc:
+                  seen_repos.add(short_name)
+                  activity_lines.append(f'- 🚀 {action_desc} in **[{short_name}](https://github.com/{repo_name})**')
+              if len(activity_lines) >= 5:
+                  break
+
+          if activity_lines:
+              with open('README.md', 'r', encoding='utf-8') as f:
+                  content = f.read()
+              
+              pattern = r'<!-- RECENT_ACTIVITY:START -->.*?<!-- RECENT_ACTIVITY:END -->'
+              replacement = '<!-- RECENT_ACTIVITY:START -->\n' + '\n'.join(activity_lines) + '\n<!-- RECENT_ACTIVITY:END -->'
+              new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+              
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_content)
+              print('Successfully updated recent activity in README.md')
+          else:
+              print('No new activity lines to update.')
+          "
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "docs: auto-update recent activity [skip ci]"
+            git push
+          fi
