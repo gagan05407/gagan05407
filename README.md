@@ -1,18 +1,16 @@
 <div align="center">
 
-# Gagan Gaur
+<h1 align="center">Gagan Gaur</h1>
+<h3 align="center">AI Engineer&nbsp;|&nbsp;Software Engineer&nbsp;|&nbsp;Full-Stack Developer</h3>
+<p align="center">Building agentic AI systems, scalable backend APIs and full-stack products</p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=6366F1&center=true&vCenter=true&width=550&lines=Software+Engineer;AI+Systems+%7C+Backend+APIs;Full-Stack+Products" alt="Typing SVG" />
-</p>
-
-<!-- Credentials & Context Badges -->
+<!-- Credentials & Context -->
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Open%20to%20Roles-6366f1?style=flat-square&logo=github&logoColor=white" alt="Status" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Location-Jaipur%2C%20India-1e293b?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
-  &nbsp;
   <img src="https://img.shields.io/badge/Education-LNMIIT%20%7C%20IIT%20Madras-1e293b?style=flat-square&logo=academia&logoColor=white" alt="Education" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Jaipur%2C%20India-1e293b?style=flat-square&logo=google-maps&logoColor=white" alt="Location" />
 </p>
 
 <!-- Professional Navigation & Social Links -->
