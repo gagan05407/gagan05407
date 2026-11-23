@@ -202,6 +202,7 @@
 ### ⚡ Latest Activity
 
 <!-- RECENT_ACTIVITY:START -->
+- 🚀 Pushed updates: "Committed code updates" in **[short-video-classifier](https://github.com/gagan05407/short-video-classifier)**
 - 🚀 Pushed updates: "Committed code updates" in **[placement_portal](https://github.com/gagan05407/placement_portal)**
 - 🚀 Created new branch in **[portfolio](https://github.com/gagan05407/portfolio)**
 - 🚀 Pushed updates: "Committed code updates" in **[developer_ai](https://github.com/gagan05407/developer_ai)**
